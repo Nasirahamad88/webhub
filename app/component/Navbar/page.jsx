@@ -31,8 +31,8 @@ const Navbar = () => {
             <div className="hover:text-gray-700 transition-colors px-4">More</div>
             <ul className="hidden absolute top-full left-0 w-full py-2 bg-white rounded-md shadow-md group-hover:block">
               <li>
-                <Link href="/blog">
-                  <div className="block text-black px-4 py-2 text-sm hover:bg-gray-100">Blog</div>
+                <Link href="/blogs">
+                  <div className="block text-black px-4 py-2 text-sm hover:bg-gray-100">Blogs</div>
                 </Link>
               </li>
               <li>

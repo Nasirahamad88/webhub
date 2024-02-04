@@ -18,8 +18,10 @@ export default function Home() {
       </div>
       <Steps/>
       <Contact />
+     
       <Footer/>
-      hello
+     
     </div>
   );
 }
+export const dynamic = 'force-dynamic'
