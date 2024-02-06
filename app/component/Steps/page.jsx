@@ -8,11 +8,11 @@ import GraphSection from '../Graparrow/page';
 
 function Steps() {
   return (
-    <section className=" text-center justify-center  px-4 py-16 bg-slate-900 text-white">
+    <section className=" text-black text-center justify-center  px-4 py-16 bg-slate-900 ">
       <h2 className="text-6xl font-bold mb-8 text-center">Our Process</h2>
       <div className=" sm:grid-cols-2 md:grid-cols-3 gap-8">
         {/* Step 1: Strategy */}
-        <div className="rounded-lg shadow-md bg-slate-900 p-8 flex items-center justify-center h-screen">
+        <div className="rounded-lg shadow-md bg-slate-900 p-8 flex items-center justify-center ">
           <h3 className="text-4xl font-bold mb-4  w-1/3 mx-auto">
             <span className="text-blue-500">01</span> Strategy
           </h3>
@@ -33,7 +33,7 @@ function Steps() {
               <div className='text-white items-center'> <GraphSection/></div>
 
         {/* Step 2: Design */}
-        <div className="rounded-lg bg-slate-900 shadow-md p-8 flex items-center justify-center h-screen">
+        <div className="rounded-lg bg-slate-900 shadow-md p-8 flex items-center justify-center ">
           <p className="mb-4 w-1/3 mx-auto">
             Color scheme, layout, sitemap, and style. We will bring your brand to life with a one of a kind masterpiece, built just for you.
 
@@ -56,7 +56,7 @@ function Steps() {
               <GraphSection/>
 
               {/* Step 3: Develop */}
-              <div className="rounded-lg bg-slate-900 shadow-md  p-8 flex items-center justify-center h-screen">
+              <div className="rounded-lg bg-slate-900 shadow-md  p-8 flex items-center justify-center ">
           <h3 className=" font-bold mb-4  w-1/3 mx-auto text-4xl">
             <span className="text-blue-500">03</span> Design
           </h3>
@@ -71,14 +71,14 @@ function Steps() {
             objectFit="cover"
           />
           
-          <p className="mb-4">
+          <p className="mb-4  w-1/3 mx-auto">
            
 
-We turn your ideas into a reality. &our website is placed on a “development server” where you get to watch the whole process, live.
+              We turn your ideas into a reality. &our website is placed on a “development server” where you get to watch the whole process, live.
           </p>
               </div>
               <GraphSection/>
-              <div className="rounded-lg bg-slate-900 shadow-md p-8 flex items-center justify-center h-screen">
+              <div className="rounded-lg bg-slate-900 shadow-md p-8 flex items-center justify-center ">
          <p className="mb-4  w-1/3 mx-auto">
             This is where you go live, to the world. Design, marketing, and maintenance; we’ll be at your side for the life of your site.
 
@@ -93,8 +93,8 @@ We turn your ideas into a reality. &our website is placed on a “development se
             // layout="fill"
             objectFit="cover"
           />
-          <h3 className=" font-bold mb-4 text-4xl">
-            <span className="text-blue-500 ">04</span> Design
+          <h3 className=" font-bold mb-4 text-4xl w-1/3 mx-auto">
+            <span className="text-blue-500  ">04</span> Design
           </h3>
           
               </div>

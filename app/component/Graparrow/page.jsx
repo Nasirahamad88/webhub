@@ -5,7 +5,7 @@ import Arrow from '../../../public/arrow.png'
 function GraphSection() {
   return (
       <div
-  className={`relative `}
+  className="flex justify-center items-center relative"
 >
   <Image
     src={Arrow}

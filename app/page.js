@@ -19,8 +19,8 @@ export default function Home() {
       <Steps/>
       <Contact />
      
-      <Footer/>
-      hello
+      
+      
     </div>
   );
 }
