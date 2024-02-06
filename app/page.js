@@ -20,8 +20,7 @@ export default function Home() {
       <Contact />
      
       <Footer/>
-     
+      hello
     </div>
   );
 }
-export const dynamic = 'force-dynamic'
