@@ -24,7 +24,7 @@ const query = `*[_type=='blogpost' &&
   
   
   return (
-  <div className='mt-20 w-[70%] mx-auto'>
+  <div className='mt-20 w-[70%] mx-auto blog-container md:w-8/12 px-4 pt-20 pb-12'>
   {blogs.map((blog) => (
     <div key={blog._id} className="mb-12 border-b-2 border-gray-200 pb-8">
       <h2 className="text-3xl font-bold mb-4">{blog.title}</h2>
@@ -42,7 +42,9 @@ const query = `*[_type=='blogpost' &&
       <p className="text-lg leading-relaxed">{blog.content}</p>
     </div>
   ))}
-</div>
+    </div>
+    
+  
 
 );
     
