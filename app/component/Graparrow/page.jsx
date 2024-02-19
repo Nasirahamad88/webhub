@@ -10,7 +10,7 @@ function GraphSection() {
   <Image
     src={Arrow}
     alt="arrow"
-    className="w-44 h-44 transform hover:animate-bounce duration-700 ease-in-out"
+    className="lg:w-44 lg:h-44 transform hover:animate-bounce duration-700 ease-in-out"
   />
 </div>
 
