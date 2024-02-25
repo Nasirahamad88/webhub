@@ -2,10 +2,7 @@
 import Service from '@/app/component/Intro/page';
 import { useState } from 'react';
 
-export const metadata = {
-  title: "LinkedIn Hashtag Generator - Elevate Your Social Media Presence",
-  description: "Welcome to the LinkedIn Hashtag Generator! Enhance your social media presence with strategic hashtags. Discover trending hashtags for LinkedIn posts and elevate your content visibility. Optimize your reach and engagement with targeted hashtags.",
-};
+
 
 // List of popular LinkedIn hashtags
 const hashtags = [
