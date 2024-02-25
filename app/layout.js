@@ -9,8 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "WebHub - Elevating Digital Excellence",
-  description: "Welcome to WebHub, your gateway to digital brilliance! We specialize in web development, WordPress solutions, SEO, graphic design, and social media management. Our dedicated team crafts tailored solutions to redefine your digital presence and drive success. Experience excellence with WebHub!"
+  description: " Webhubdev, WordPress, SEO, design, social media.  Tailored solutions for your digital dominance.  Experience WebHub excellence! #webdev #SEO #design #digitalmarketing",
 };
+
 
 
 export default function RootLayout({ children }) {

@@ -12,7 +12,7 @@ const Navbar = () => {
   };
   return (
     <div className=" bg-black text-white fixed top-0 left-0 w-full z-10 ">
-      <nav className="w-[80%] mx-auto flex items-center justify-between py-4 border-b border-gray-200 bg-black">
+      <nav className="w-[80%] mx-auto flex items-center justify-between py-4 px-8 border-b border-gray-200 bg-black">
       <Link href="/">
         <div className="font-bold text-xl"><Image src={Logo} height={80} width={180} alt='webhav logo'/> </div>
       </Link>
@@ -38,8 +38,8 @@ const Navbar = () => {
               <div className="hover:text-gray-700 transition-colors">Contact</div>
             </Link>
           </li>
-          {/* Dropdown Menu */}
-          <li className="relative group">
+            {/* Dropdown Menu */}
+            <li className="relative group">
             <div className="hover:text-gray-700 transition-colors px-4">More</div>
             <ul className="hidden absolute top-full left-0 w-full py-2 bg-white rounded-md shadow-md group-hover:block">
               <li>
@@ -54,6 +54,22 @@ const Navbar = () => {
               </li>
             </ul>
           </li>
+            <li className="relative group px-6">
+            <div className="hover:text-gray-700 transition-colors px-4">Tools</div>
+            <ul className="hidden absolute top-full left-0 w-full py-2 bg-white rounded-md shadow-md group-hover:block">
+              <li>
+                <Link href="/tools/hashtag">
+                  <div className="block text-black px-4 py-2 text-sm hover:bg-gray-100">Linkedin Hashtags</div>
+                </Link>
+              </li>
+              <li>
+                <Link href="/">
+                  <div className="block text-black px-4 py-2 text-sm hover:bg-gray-100">Comming Soon</div>
+                </Link>
+              </li>
+            </ul>
+          </li>
+          
         </ul>
       </div>
       
