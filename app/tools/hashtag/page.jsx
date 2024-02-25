@@ -73,7 +73,7 @@ export default function HashtagGenerator() {
                    <div className="border border-gray-300 p-2">
         <ul className="flex">
           {generatedHashtags.map((hashtag, index) => (
-            <li key={index} className="text-green-500 flex">#smallbusiness #connection #leadershipquotes #grit #teamwork #experience #networking #motivationalquotes #diversity #linkedin #motivation #networking #meaning #disruption #productivity{hashtag}</li>
+            <li key={index} className="text-green-500 flex">{hashtag}</li>
           ))}
         </ul>
       </div>
