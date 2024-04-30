@@ -3,9 +3,11 @@ import Image from "next/image";
 
 import Banner1 from '../public/banner/1.png'
 import Steps from "./component/Steps/page";
-import Contact from "./component/ContactUs/page";
+
 
 import Service from "./component/Intro/page";
+import PastProjectsPage from "./pastProjectsPage/page";
+import Contact from "./contact/page";
 
 export const metadata = {
   title: "WebHub - Elevating Digital Excellence",
@@ -21,8 +23,10 @@ export default function Home() {
       <div>
         <Service/>
       </div>
-      <Steps/>
-      <Contact />
+      <Steps />
+      <PastProjectsPage/>
+      
+      <Contact/>
      
       
       

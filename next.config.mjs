@@ -1,5 +1,5 @@
 export default {
   images: {
-    domains: ['cdn.sanity.io'],
+    domains: ["cdn.sanity.io",],
   },
 };
