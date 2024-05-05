@@ -8,7 +8,7 @@ import GraphSection from '../Graparrow/page';
 
 function Steps() {
   return (
-    <section className=" text-black text-center justify-center  px-4 py-16 bg-slate-900 ">
+    <section className=" text-black bg-white text-center justify-center  px-4 py-16 bg-slate-900 ">
       <h2 className="text-6xl font-bold mb-8 text-center">Our Process</h2>
       <div className=" sm:grid-cols-2 md:grid-cols-3 gap-8">
         {/* Step 1: Strategy */}

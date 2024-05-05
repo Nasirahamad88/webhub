@@ -8,6 +8,7 @@ import Steps from "./component/Steps/page";
 import Service from "./component/Intro/page";
 import PastProjectsPage from "./pastProjectsPage/page";
 import Contact from "./contact/page";
+import Hero from "./component/Hero/page";
 
 export const metadata = {
   title: "WebHub - Elevating Digital Excellence",
@@ -18,7 +19,9 @@ export default function Home() {
   return (
     <div>
       <div className="w-auto mt-8 lg:w-auto" > 
-        <Image src={Banner1} alt="banner" className=" "/>
+        {/* <Image src={Banner1} alt="banner" className=" "/>
+         */}
+        <Hero/>
       </div>
       <div>
         <Service/>
