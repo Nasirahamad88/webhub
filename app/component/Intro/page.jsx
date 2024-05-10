@@ -10,6 +10,7 @@ import { TbSeo } from "react-icons/tb";
 import { SiSocialblade } from "react-icons/si";
 import { SiCodesignal } from "react-icons/si";
 import Link from "next/link";
+import PastProjectsPage from "@/app/pastProjectsPage/page";
 
 const Service = () => {
   return (
@@ -39,7 +40,7 @@ const Service = () => {
           </div>
         </div>
       </div>
-
+<PastProjectsPage/>
       <div className="pb-12 pt-20 dark:bg-dark bg-white lg:pb-[90px] lg:pt-[120px]">
         <div className="container mx-auto">
           <GraphSection />

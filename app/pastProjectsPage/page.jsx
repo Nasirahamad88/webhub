@@ -2,15 +2,18 @@ import React from "react";
 import Image1 from "../../public/webhub/1.png";
 import Image2 from "../../public/webhub/3.png";
 import Image3 from "../../public/webhub/2.png";
+import Image4 from "../../public/webhub/Garman.png";
+import Image5 from "../../public/webhub/5.png";
+import Image6 from "../../public/webhub/6.png";
 import Image from "next/image";
 
 const projects = [
   {
     id: 1,
-    title: "E-commerce Website",
+    title: "Germany client Website",
     description:
-      "Developed a fully functional e-commerce website for a clothing brand.",
-    imageUrl: Image1, // Replace with imported image
+      "🌐 Our team poured creativity and expertise into crafting a captivating online presence tailored to their unique needs",
+    imageUrl: Image4, // Replace with imported image
   },
   {
     id: 2,
@@ -21,6 +24,28 @@ const projects = [
   },
   {
     id: 3,
+    title: "Corporate Website Redesign",
+    description:
+      "Apparel Accessories Manufacturer and Supplier from Bangaldesh.",
+    imageUrl: Image5, // Replace with imported image
+  },
+  {
+    id: 4,
+    title: "E-commerce Website",
+    description:
+      "Developed a fully functional e-commerce website for a clothing brand.",
+    imageUrl: Image1, // Replace with imported image
+  },
+
+  {
+    id: 6,
+    title: "Agency Website",
+    description:
+      "Created a sleek and modern Agency Website for a freelance web development designer.",
+    imageUrl: Image6, // Replace with imported image
+  },
+   {
+    id: 5,
     title: "Portfolio Website",
     description:
       "Created a sleek and modern portfolio website for a freelance graphic designer.",
@@ -28,9 +53,13 @@ const projects = [
   },
 ];
 
+
+ 
+
 const PastProjectsPage = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <section className='bg-white'>
+    <div className="container  mx-auto px-4 py-8">
       <h1 className="text-3xl text-center font-bold mb-8">Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project) => (
@@ -50,7 +79,7 @@ const PastProjectsPage = () => {
           </div>
         ))}
       </div>
-    </div>
+    </div></section>
   );
 };
 
