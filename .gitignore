@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# mongodb
+# user:stock-manage
+# pass:wF7vkAQuinGJhlhS
