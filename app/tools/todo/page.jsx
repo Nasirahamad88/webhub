@@ -17,7 +17,7 @@ export default function TODO() {
       </Head>
 
       <div className="bg-white p-8 rounded-lg shadow-lg text-center max-w-md">
-        <h1 className="text-2xl font-bold text-gray-800 mb-4">Download Our Extension</h1>
+        <h3 className="text-2xl font-bold text-gray-800 mb-4">Download Our Extension</h3>
         <p className="text-gray-600 mb-8">
           Enhance your website experience with our easy-to-use extension. Click the button below to download the latest version.
         </p>

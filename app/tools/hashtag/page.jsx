@@ -74,7 +74,7 @@ export default function HashtagGenerator() {
   };
     return (
         <div className='pt-10 mt-20'>
-            <h1 className='font-bold text-4xl text-center'>LinkedIn Trending Hashtags</h1>
+            <h3 className='font-bold text-4xl text-center'>LinkedIn Trending Hashtags</h3>
     <div className="max-w-md mx-auto mt-10">
       <div className="mb-4">
         <button 

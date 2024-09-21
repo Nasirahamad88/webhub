@@ -12,7 +12,7 @@ import Hero from "./component/Hero/page";
 
 export const metadata = {
   title: "Affordable & Professional Small Business Website Design Services | Burlington Packages",
-  description: " Web dev, WordPress, SEO, design, social media.  Tailored solutions for your digital dominance.  Experience WebHub excellence! #webdev #SEO #design #digitalmarketing",
+  description: " Looking for affordable small business website design services? Our professional team offers cost-effective website design packages tailored for small businesses.",
 };
 
 export default function Home() {
