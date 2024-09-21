@@ -60,7 +60,7 @@ const PastProjectsPage = () => {
   return (
     <section className='bg-white'>
     <div className="container  mx-auto px-4 py-8">
-      <h1 className="text-3xl text-center font-bold mb-8">Projects</h1>
+      <div className="text-3xl text-center font-bold mb-8">Projects</div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project) => (
           <div
@@ -74,7 +74,7 @@ const PastProjectsPage = () => {
             />
             <div className="p-4">
               <h2 className="text-xl font-bold mb-2">{project.title}</h2>
-              <p className="text-gray-700">{project.description}</p>
+              <h3 className="text-gray-700">{project.description}</h3>
             </div>
           </div>
         ))}

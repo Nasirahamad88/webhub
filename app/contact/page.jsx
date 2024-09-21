@@ -6,7 +6,7 @@ const Contact = () => {
       <section className="w-full  py-20 dark:bg-dark">
         <div className="container mx-auto px-4">
           <div className="max-w-[570px] text-center">
-            <h1 className="mb-6 text-4xl font-bold text-primary">Contact Us</h1>
+            <div className="mb-6 text-4xl font-bold text-primary">Contact Us</div>
             <h2 className="mb-8 text-[32px] font-bold uppercase text-dark dark:text-white">
               GET IN TOUCH WITH US
             </h2>

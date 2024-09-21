@@ -2,8 +2,8 @@ import React from 'react'
 
 
 export const metadata = {
-  title: "About WebHub - Your Trusted Digital Partner",
-  description: "Discover who we are and what drives us at WebHub! We're a passionate team of web developers, WordPress experts, SEO strategists, graphic designers, and social media specialists dedicated to crafting exceptional digital experiences. Learn about our values, expertise, and commitment to elevating your online presence.",
+  title: "About WebHub - cheap small business website design",
+  description: "cheap small business website design ,professional small business website design ,small business website design packages ",
 };
 
 
@@ -14,7 +14,7 @@ const page = () => {
         <title>About Us - Your Agency Name</title>
       
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold mb-4">About Us</h1>
+        <div className="text-4xl font-bold mb-4">About Us</div>
         <p className="text-lg mb-6">
           We are a full-service digital agency specializing in web development, WordPress development, graphic design, SEO, and more.
         </p>

@@ -11,7 +11,7 @@ import Contact from "./contact/page";
 import Hero from "./component/Hero/page";
 
 export const metadata = {
-  title: "WebHub - Elevating Digital Excellence",
+  title: "Affordable & Professional Small Business Website Design Services | Burlington Packages",
   description: " Web dev, WordPress, SEO, design, social media.  Tailored solutions for your digital dominance.  Experience WebHub excellence! #webdev #SEO #design #digitalmarketing",
 };
 

@@ -1,6 +1,7 @@
 import { Link2Off } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react'
+import { FaStar } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -20,19 +21,35 @@ const Hero = () => {
             </p>
             <div className="mt-8 flex justify-center">
               <Link
-                href="https://wa.me/8801759277464"
+                href="tools/hashtag"
                 target="_blank"
                 className="mr-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-300"
               >
-                Get Started
+                Linkedin Hastags Genarator
               </Link>
-              <Link href="https://wa.me/8801759277464"
+              <Link href="/tools/todo"
                   target="_blank"
                 className="inline-block bg-gray-800 hover:bg-gray-900 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-300"
               >
-                Learn More
+                To-do list extension
               </Link>
             </div>
+            <div className="bg-black text-white py-20">
+            <div className="container mx-auto text-center">
+ 
+  <p className="text-xl mb-6">
+    We've already completed <span className="font-semibold">28 projects</span> and received{' '}
+    <span className="font-semibold">4.9</span>
+    <span className="flex items-center justify-center text-3xl mt-2 hover:scale-110 hover:shadow-xl">
+      {[...Array(5)].map((_, i) => (
+        <FaStar key={i} className={i < 5 ? 'text-yellow-500' : 'text-gray-400'} />
+      ))}
+    </span>
+  </p>
+  
+</div>
+
+    </div>
           </div>
         </div>
       </div>

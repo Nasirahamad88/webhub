@@ -8,8 +8,8 @@ import Footer from "./component/Footer/page";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "WebHub - Elevating Digital Excellence",
-  description: " Webhubdev, WordPress, SEO, design, social media.  Tailored solutions for your digital dominance.  Experience WebHub excellence! #webdev #SEO #design #digitalmarketing",
+  title: "Affordable Small Business Website Design | Professional Web Solutions for Your Business",
+  description: " Looking for affordable small business website design services? Our professional team offers cost-effective website design packages tailored for small businesses.",
 };
 
 
