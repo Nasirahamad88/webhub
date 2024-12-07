@@ -15,7 +15,7 @@ const Navbar = () => {
       <nav className="w-[80%] mx-auto flex items-center justify-between py-4 px-8 border-b border-gray-200 bg-black">
         <Link href="/">
           <div className="font-bold text-xl">
-            <Image src={Logo} height={80} width={180} alt="webhav logo" />{" "}
+            <Image src={Logo} height={80} width={180} alt="webhab logo" />{" "}
           </div>
         </Link>
         <div className="hidden md:block">
@@ -28,9 +28,9 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/about">
+              <Link href="/notebook">
                 <div className="hover:text-gray-700 transition-colors">
-                  About
+                  Notebook
                 </div>
               </Link>
             </li>
@@ -90,9 +90,9 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="/tools/prime">
                     <div className="block text-black px-4 py-2 text-sm hover:bg-gray-100">
-                      Comming Soon
+                    Prime Number
                     </div>
                   </Link>
                 </li>

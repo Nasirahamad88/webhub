@@ -2,9 +2,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
 
-import Navbar from "./component/Navbar/page";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Footer from "./component/Footer/page";
+import Navbar from "./component/Navbar/page";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
           {children}
           <Footer/>
           <SpeedInsights />
-                  <Analytics />
+          <Analytics />
 
         </div>
         
